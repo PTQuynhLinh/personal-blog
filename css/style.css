@@ -1,0 +1,127 @@
+:root {
+  --primary: #f195b2;
+  --pink: #e83e8c;
+  --red: #dc3545;
+  --white: #fff;
+}
+* {
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+/* ========== Start Header ========================= */
+/* ========== Start Navbar ========== */
+
+.navbar {
+  background-color: #f195b2;
+  display: flex;
+  column-gap: 80px;
+  list-style-type: none;
+  padding-left: 50px;
+  align-items: center;
+  margin: 0;
+}
+.navbar li a {
+  text-decoration: none;
+}
+.navbar li:first-child {
+  font-weight: bold;
+  font-size: 30px;
+  color: #dc3545;
+}
+.navbar li:last-child {
+  display: none;
+}
+.navbar li:nth-of-type(n + 2) {
+  padding: 20px 40px;
+  color: #e83e8c;
+  cursor: pointer;
+}
+.navbar li:nth-of-type(n + 2):hover {
+  background-color: #dc3545;
+}
+.navbar li:nth-of-type(n + 2) a {
+  color: #fff;
+  font-size: 20px;
+}
+/* ========== End Navbar ========== */
+/* ========== Start Banner ========== */
+.banner {
+  position: relative;
+}
+.banner img {
+  width: 100%;
+  height: auto;
+}
+.banner .caption {
+  position: absolute;
+  top: 50%;
+  padding-left: 50px;
+  color: #fff;
+  font-weight: bold;
+}
+.banner .caption .action {
+  margin-top: 20px;
+  display: flex;
+  column-gap: 10px;
+}
+.banner .caption .action a {
+  padding: 10px 25px;
+  background-color: #f195b2;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 100px;
+}
+.banner .caption .action button {
+  width: 37px;
+  height: 37px;
+  background-image: url("/assets/heart.png");
+  border: none;
+  background-size: cover;
+  border-radius: 14px;
+  cursor: pointer;
+}
+/* ========== End Banner ========== */
+/* ========== End Header ================== */
+/* ========== Start Content ================== */
+.content {
+  padding: 20px 0px 20px 50px;
+  display: grid;
+  grid-template-columns: auto 200px;
+  gap: 15px;
+}
+
+/* ========== Start Right Content ========== */
+.content .right-content {
+  background-color: #f195b2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 20px;
+}
+.content .right-content p {
+  font-size: 23px;
+  font-weight: bold;
+  color: #dc3545;
+  margin-top: 10px;
+}
+.content .right-content ul li {
+  border-bottom: 1px solid #dc3545;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+.content .right-content ul li a {
+  color: #fff;
+}
+/* ========== End Right Content ========== */
+/* ========== End Content ==================== */
+/* ========== Start Footer ==================== */
+footer {
+  background-color: #f195b2;
+  padding: 20px 0;
+  color: #dc3545;
+  text-align: center;
+}
+/* ========== Start Footer ==================== */

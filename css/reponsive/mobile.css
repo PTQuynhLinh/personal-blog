@@ -1,0 +1,19 @@
+@media screen and (max-width: 400px) {
+  .navbar {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+  .navbar li:nth-of-type(n + 2) {
+    display: none;
+  }
+  .navbar li:last-child {
+    display: block;
+  }
+  .banner {
+    display: none;
+  }
+  .content .main-content .card-container .card {
+    width: auto;
+  }
+}

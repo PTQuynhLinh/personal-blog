@@ -1,0 +1,23 @@
+h1,
+h2,
+h3,
+h4 {
+  color: #e83e8c;
+}
+h1 {
+  text-align: center;
+}
+.content .main-content {
+  border: 1px solid #f195b2;
+  padding: 10px;
+}
+.content .main-content ul,
+.content .main-content ol {
+  padding-left: 50px;
+}
+.content .right-content ul {
+  list-style-type: none;
+}
+.content .right-content ul li a {
+  text-decoration: none;
+}
